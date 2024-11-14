@@ -124,9 +124,9 @@ export default {
     /* Box shadows herunder */
     boxShadow: {
       drop25: "0px 8px 16px -6px rgba(25, 101, 114, 0.50), 0px 6px 8px -6px rgba(25, 101, 114, 0.50)" /* x y blur spread farve / opacity */,
-      drop50: "0px 10px 32px -4px rgba(25, 101, 114, 0.50), 0px 6px 14px -6px rgba(25, 101, 114, 0.50)" /* x y blur spread farve / opacity */,
-      inner25: "0px 8px 16px -6px rgba(10, 41, 46, 0.50) inset, 0px 6px 8px -6px rgba(10, 41, 46, 0.50) inset" /* x y blur spread farve / opacity */,
-      inner50: "0px 10px 32px -4px rgba(10, 41, 46, 0.50) inset, 0px 6px 14px -6px rgba(10, 41, 46, 0.50) inset" /* x y blur spread farve / opacity */,
+      drop50: "0px 10px 32px -4px rgba(25, 101, 114, 0.50), 0px 6px 14px -6px rgba(25, 101, 114, 0.50)",
+      inner25: "0px 8px 16px -6px rgba(10, 41, 46, 0.50) inset, 0px 6px 8px -6px rgba(10, 41, 46, 0.50) inset",
+      inner50: "0px 10px 32px -4px rgba(10, 41, 46, 0.50) inset, 0px 6px 14px -6px rgba(10, 41, 46, 0.50) inset",
     },
 
     extend: {},
