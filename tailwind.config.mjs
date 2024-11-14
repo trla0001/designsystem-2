@@ -42,7 +42,7 @@ export default {
         700: "#0F3B43",
         800: "#0A292E",
       },
-      neutrals: {
+      neutral: {
         50: "#F8F8F8",
         100: "#DEDCD8",
         200: "#BBB7AF",
@@ -79,21 +79,28 @@ export default {
     },
 
     /* Tilføj fonte herunder - husk også at tilføje webfonte i head-sektionen i MainLayout  */
-    // fontFamily: {
-    //     sans: ['Prompt', 'sans-serif'],
-    //     'display': ['Courier', 'monospace'], /* eksempel på ekstra font */
-    // },
+    fontFamily: {
+      sans: ["Prompt", "sans-serif"],
+      display: ["Courier", "monospace"] /* eksempel på ekstra font */,
+    },
 
     /* Tilføj dit typografiske hierarki herunder */
-    // fontSize: {
-    //     base: ['1rem', { lineHeight: '1.5rem' }],
-    //     large: ['2.5rem', { lineHeight: '3.75rem' }],
-    //   },
+    fontSize: {
+      konsultativ: ["0.688rem", { lineHeight: "1.0rem" }],
+      body: ["0.813rem", { lineHeight: "1.25rem" }],
+      base: ["1rem", { lineHeight: "1.5rem" }],
+      small: ["1.5rem", { lineHeight: "2.25rem" }],
+      medium: ["2rem", { lineHeight: "3rem" }],
+      large: ["2.5rem", { lineHeight: "3.75rem" }],
+      xlarge: ["3rem", { lineHeight: "4.5rem" }],
+    },
 
     /* Tilføj dit fontvægt-hierarki nedenfor */
-    //   fontWeight: {
-    //     regular: '400',
-    //   },
+    fontWeight: {
+      light: "300",
+      regular: "400",
+      semibols: "600",
+    },
 
     /* Borders - borderstørrelser herunder */
     borderWidth: {
@@ -115,9 +122,12 @@ export default {
     },
 
     /* Box shadows herunder */
-    // boxShadow: {
-    //     drop25: '4px 4px 4px 0 rgb(0 0 0 / 0.25)', /* x y blur spread farve / opacity */
-    // },
+    boxShadow: {
+      drop25: "0px 8px 16px -6px rgba(25, 101, 114, 0.50), 0px 6px 8px -6px rgba(25, 101, 114, 0.50)" /* x y blur spread farve / opacity */,
+      drop50: "0px 10px 32px -4px rgba(25, 101, 114, 0.50), 0px 6px 14px -6px rgba(25, 101, 114, 0.50)" /* x y blur spread farve / opacity */,
+      inner25: "0px 8px 16px -6px rgba(10, 41, 46, 0.50) inset, 0px 6px 8px -6px rgba(10, 41, 46, 0.50) inset" /* x y blur spread farve / opacity */,
+      inner50: "0px 10px 32px -4px rgba(10, 41, 46, 0.50) inset, 0px 6px 14px -6px rgba(10, 41, 46, 0.50) inset" /* x y blur spread farve / opacity */,
+    },
 
     extend: {},
   },
