@@ -96,17 +96,23 @@ export default {
     //   },
 
     /* Borders - borderstørrelser herunder */
-    // borderWidth: {
-    //     DEFAULT: '1px',
-    //     0: '0px',
-    //     2: '2px',
-    // },
+    borderWidth: {
+      DEFAULT: "1px",
+      0: "0px",
+      2: "2px",
+      3: "3px",
+      4: "4px",
+    },
 
     /* Border radius størrelser herunder */
-    // borderRadius: {
-    //     DEFAULT: '1.25rem',
-    //     none: '0px',
-    // },
+    borderRadius: {
+      DEFAULT: "10px",
+      none: "0px",
+      sm: "20px",
+      md: "30px",
+      lg: "40px",
+      full: "900px",
+    },
 
     /* Box shadows herunder */
     // boxShadow: {
