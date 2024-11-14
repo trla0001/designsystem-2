@@ -42,14 +42,41 @@ export default {
         700: "#0F3B43",
         800: "#0A292E",
       },
+      neutrals: {
+        50: "#F8F8F8",
+        100: "#DEDCD8",
+        200: "#BBB7AF",
+        300: "#9B9488",
+        400: "#746E62",
+        500: "#4D4941",
+        600: "#3D3A33",
+        700: "#2F2D28",
+        800: "#1E1D1A",
+      },
       white: "#FFFFFF",
       black: "#101010",
     },
 
     /* Tilføj din egen spacing nedenfor */
-    // spacing: {
-    //     'm': '40px',
-    // },
+    spacing: {
+      xxs: "8px",
+      xs: "16px",
+      s: "24px",
+      sm: "32px",
+      m: "40px",
+      ml: "48px",
+      lg: "64px",
+      xl: "80px",
+      "2xl": "96px",
+      "3xl": "112px",
+      "4xl": "128px",
+      "5xl": "144px",
+      "5xl": "160px",
+      "6xl": "176px",
+      "7xl": "192px",
+      "8xl": "208px",
+      "9xl": "240px",
+    },
 
     /* Tilføj fonte herunder - husk også at tilføje webfonte i head-sektionen i MainLayout  */
     // fontFamily: {
