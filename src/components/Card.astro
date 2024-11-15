@@ -1,5 +1,5 @@
 ---
-const { url = "#", cardimage = "", cardimagealt = "", badgenyt = "false", badgerabat = "false", badgerabatsats = "", badgefaapladser = "false", holdnavn = "", tidspunkt = "", aldersgruppe = "", niveau = "", pladserpaaholdet = "", lokale = "", holdbeskrivelse = "", underviserfoto = "", underviserfotoalt = "", undervisernavn = "", underviserinfo = "" } = Astro.props;
+const { url = "#", cardimage = "", cardimagealt = "", badgenyt = "false", badgerabat = "false", badgefaapladser = "false", holdnavn = "", tidspunkt = "", aldersgruppe = "", niveau = "", pladserpaaholdet = "", lokale = "", holdbeskrivelse = "", underviserfoto = "", underviserfotoalt = "", undervisernavn = "", underviserinfo = "" } = Astro.props;
 ---
 
 <article class="border-blue-500 border-2 @container">
@@ -8,7 +8,7 @@ const { url = "#", cardimage = "", cardimagealt = "", badgenyt = "false", badger
       <img src={cardimage} alt={cardimagealt} class="object-cover w-full h-9xl" />
       {
         badgenyt == "true" && (
-          <div class="absolute bg-black text-white top-xs">
+          <div class="absolute bg-black text-white top-xs left-xs">
             <span>Nyt hold!</span>
           </div>
         )
@@ -21,8 +21,8 @@ const { url = "#", cardimage = "", cardimagealt = "", badgenyt = "false", badger
         )
       }
       {
-        badgerabatsats == "true" && (
-          <div class="absolute bg-black text-white bottom-xs">
+        badgefaapladser == "true" && (
+          <div class="absolute bg-black text-white bottom-xs left-xs">
             <span>Kun få pladser tilbage!</span>
           </div>
         )
