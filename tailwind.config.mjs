@@ -99,7 +99,7 @@ export default {
     fontWeight: {
       light: "300",
       regular: "400",
-      semibols: "600",
+      semibold: "600",
     },
 
     /* Borders - borderstørrelser herunder */
