@@ -6,9 +6,27 @@ const { url = "#", cardimage = "", cardimagealt = "", badgenyt = "false", badger
   <a href={url} class="flex flex-col">
     <section class="relative">
       <img src={cardimage} alt={cardimagealt} class="object-cover w-full h-9xl" />
-      <div class="absolute bg-black text-white top-xs"><span>Nyt hold!</span></div>
-      <div class="absolute bg-black text-white top-xs right-xs"><span>10% rabat</span></div>
-      <div class="absolute bg-black text-white bottom-xs"><span>Kun få pladser tilbage!</span></div>
+      {
+        badgenyt == "true" && (
+          <div class="absolute bg-black text-white top-xs">
+            <span>Nyt hold!</span>
+          </div>
+        )
+      }
+      {
+        badgerabat == "true" && (
+          <div class="absolute bg-black text-white top-xs right-xs">
+            <span>10% rabat</span>
+          </div>
+        )
+      }
+      {
+        badgerabatsats == "true" && (
+          <div class="absolute bg-black text-white bottom-xs">
+            <span>Kun få pladser tilbage!</span>
+          </div>
+        )
+      }
     </section>
     <section class="p-xs grow border-b-2 border-blue-500">
       <h3 class="text-small @text-large font-semibold mb-xs">{holdnavn}</h3>
