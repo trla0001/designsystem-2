@@ -75,7 +75,7 @@ export default {
       "6xl": "176px",
       "7xl": "192px",
       "8xl": "208px",
-      "9xl": "240px",
+      "9xl": "424px",
     },
 
     /* Tilføj fonte herunder - husk også at tilføje webfonte i head-sektionen i MainLayout  */
