@@ -87,11 +87,11 @@ export default {
     /* Tilføj dit typografiske hierarki herunder */
     fontSize: {
       konsultativ: ["0.688rem", { lineHeight: "1.0rem" }],
-      body: ["0.813rem", { lineHeight: "1.25rem" }],
+      body: ["1.25rem", { lineHeight: "1.25rem" }],
       base: ["1rem", { lineHeight: "1.5rem" }],
-      small: ["1.5rem", { lineHeight: "2.25rem" }],
-      medium: ["2rem", { lineHeight: "3rem" }],
-      large: ["2.5rem", { lineHeight: "3.75rem" }],
+      small: ["2rem", { lineHeight: "2.25rem" }],
+      medium: ["2.5rem", { lineHeight: "3rem" }],
+      large: ["3.5rem", { lineHeight: "3.75rem" }],
       xlarge: ["5rem", { lineHeight: "4.5rem" }],
     },
 
